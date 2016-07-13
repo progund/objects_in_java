@@ -1,0 +1,12 @@
+package org.progund.strings;
+
+public class PassingValues{
+  public static void main(String[] args){
+    String firstArgument = "";
+    System.out.println("You gave " + args.length + " arguments.");
+    if( args.length!=0 ){
+      firstArgument = args[0];
+    }
+    System.out.println("The first argument (if any) was: " + firstArgument);
+  }
+}

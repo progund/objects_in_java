@@ -1,0 +1,9 @@
+package org.progund.props;
+
+import java.util.Properties;
+
+public class GettingValues{
+  public static void main(String[] args){
+    
+  }
+}

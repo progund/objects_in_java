@@ -1,0 +1,10 @@
+package org.progund.props;
+
+import java.util.Properties;
+
+public class CustomProperties{
+  public static void main(String[] args){
+    Properties favorites = new Properties();
+    
+  }
+}

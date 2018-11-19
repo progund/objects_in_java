@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class LoopChallengeVersion2{
+public class LoopChallengeVersion2 {
 
-  private final static int NO_ARGUMENTS=1;
-  public static void main(String[] args){
-    if(args.length == 0){
+  private final static int NO_ARGUMENTS = 1;
+  
+  public static void main(String[] args) {
+
+    if (args.length == 0) {
       System.err.println("You must provide at least one argument.");
       System.exit(NO_ARGUMENTS);
     }
@@ -17,7 +19,7 @@ public class LoopChallengeVersion2{
 
     System.out.println("You gave " + args.length + " argument(s)");
 
-    for(String arg : argList){
+    for (String arg : argList) {
       System.out.println(arg);
     }
 
@@ -25,8 +27,10 @@ public class LoopChallengeVersion2{
     
     Collections.reverse(argList);
 
-    for(String arg : argList){
+    for (String arg : argList) {
       System.out.println(arg);
     }
+    
   }
+  
 }
